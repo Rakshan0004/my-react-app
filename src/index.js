@@ -5,6 +5,8 @@ import App from './App';
 import ProductApp from './components/ProductApp';
 import reportWebVitals from './reportWebVitals';
 import EventTest from './components/EventTest';
+import Button from './components/EventHandle';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -14,7 +16,9 @@ root.render(
 
     {/* <Square /> */}
     {/* <ProductApp /> */}
-    <EventTest />
+    {/* <EventTest /> */}
+      <Button />
+
   </React.StrictMode>
 );
 
