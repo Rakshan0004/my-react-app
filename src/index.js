@@ -20,8 +20,8 @@ root.render(
     {/* <Square /> */}
     {/* <ProductApp /> */}
     {/* <EventTest /> */}
-    <Button />
-    <Ninja />
+    {/* <Button /> */}
+    {/* <Ninja /> */}
   </React.StrictMode>
 );
 
