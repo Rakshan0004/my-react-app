@@ -4,15 +4,17 @@ import Counter from './components/Counter'; // Ensure this file exists
 import Square from './components/Square';
 import './styles.css';
 import ProductApp from './components/ProductApp';
+import Navbar from './components/Navbar';
+import Home from './Home';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        
-        
-      </header>
-    </div>
+      <Navbar />
+      <div className="App-header">
+        <Home />
+      </div>
+    </div> 
   );
 }
 

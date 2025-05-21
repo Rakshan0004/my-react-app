@@ -6,19 +6,22 @@ import ProductApp from './components/ProductApp';
 import reportWebVitals from './reportWebVitals';
 import EventTest from './components/EventTest';
 import Button from './components/EventHandle';
+import Ninja from './components/Ninja.jsx';
+
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <App />
     {/* <ShoppingList />
       <Counter /> */}
 
     {/* <Square /> */}
     {/* <ProductApp /> */}
     {/* <EventTest /> */}
-      <Button />
-
+    <Button />
+    <Ninja />
   </React.StrictMode>
 );
 
