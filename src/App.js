@@ -12,12 +12,17 @@ import ThirdComponent from './props/ThirdComponent'
 import FouthComponent from './props/FourthComponent'
 
 
+const user = {
+  name: 'shiva',
+  city: "hyderabad",
+  area: "ammerpet"
+}
 
 function App() {
   return (
     <div className="container">
-        <FirstComponent name = "rakshan" />
-        <SecondComponent name = 'kalyan'/>
+        <FirstComponent name = {user.name} />
+        <SecondComponent name = {user.city}/>
         <ThirdComponent name = 'arjun'/>
         <FouthComponent name = "rose"/>
 
