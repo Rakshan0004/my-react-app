@@ -6,14 +6,21 @@ import './styles.css';
 import ProductApp from './components/ProductApp';
 import Navbar from './components/Navbar';
 import Home from './Home';
+import FirstComponent from './props/FirstComponent'
+import SecondComponent from './props/SecondComponent'
+import ThirdComponent from './props/ThirdComponent'
+import FouthComponent from './props/FourthComponent'
+
+
 
 function App() {
   return (
-    <div className="App">
-      <Navbar />
-      <div className="content">
-        <Home />
-      </div>
+    <div className="container">
+        <FirstComponent name = "rakshan" />
+        <SecondComponent name = 'kalyan'/>
+        <ThirdComponent name = 'arjun'/>
+        <FouthComponent name = "rose"/>
+
     </div> 
   );
 }
