@@ -21,10 +21,10 @@ const user = {
 function App() {
   return (
     <div className="container">
-        <FirstComponent name = {user.name} />
-        <SecondComponent name = {user.city}/>
+        <FirstComponent user = {user} />
+        {/* <SecondComponent name = {user.city}/>
         <ThirdComponent name = 'arjun'/>
-        <FouthComponent name = "rose"/>
+        <FouthComponent name = "rose"/> */}
 
     </div> 
   );
