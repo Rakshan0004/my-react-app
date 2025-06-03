@@ -10,6 +10,7 @@ import FirstComponent from './props/FirstComponent'
 import SecondComponent from './props/SecondComponent'
 import ThirdComponent from './props/ThirdComponent'
 import FouthComponent from './props/FourthComponent'
+import StateMgm from './components/StateMgm';
 
 
 const user = {
@@ -25,7 +26,7 @@ function App() {
         {/* <SecondComponent name = {user.city}/>
         <ThirdComponent name = 'arjun'/>
         <FouthComponent name = "rose"/> */}
-
+        <StateMgm />
     </div> 
   );
 }
