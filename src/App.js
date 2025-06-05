@@ -11,6 +11,8 @@ import SecondComponent from './props/SecondComponent'
 import ThirdComponent from './props/ThirdComponent'
 import FouthComponent from './props/FourthComponent'
 import StateMgm from './components/StateMgm';
+import Chat from './components/Chat';
+import FormEx from './components/FormEx';
 
 
 const user = {
@@ -27,6 +29,8 @@ function App() {
         <ThirdComponent name = 'arjun'/>
         <FouthComponent name = "rose"/> */}
         <StateMgm />
+        <Chat />
+        <FormEx />
     </div> 
   );
 }
